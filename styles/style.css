@@ -9,7 +9,7 @@ body {
   background: var(--secondary-color);
 }
 .navigation-links a,
-h2,
+.description h2,
 p {
   font-family: var(--default-font-family);
 }
@@ -22,7 +22,8 @@ h2 {
   font-size: 36px;
   font-weight: bold;
 }
-p {
+
+.hero-page p {
   font-weight: normal;
   font-size: 24px;
 }
@@ -38,6 +39,31 @@ p {
   text-decoration: none;
   margin-left: 25px;
 }
-.navigation-links a:hover {
+.navigation-links a:hover,
+.description a:hover {
   color: #000;
+}
+.description h1 {
+  font-size: 64px;
+}
+.description {
+  margin-top: 110px;
+}
+.description p {
+  font-size: 16px;
+  font-weight: normal;
+}
+.description a {
+  font-size: 20px;
+  text-decoration: none;
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  padding: 15px 20px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+.projects h2 {
+  font-size: 88px;
+  font-weight: normal;
+  font-family: var(--heading-font-family);
 }
