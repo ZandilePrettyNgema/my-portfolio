@@ -37,7 +37,7 @@ h2 {
   background: var(--branding-color);
   color: #fff;
   text-decoration: none;
-  margin-left: 25px;
+  margin: 10px;
 }
 .navigation-links a:hover,
 .description a:hover {
@@ -68,6 +68,19 @@ h2 {
   font-family: var(--heading-font-family);
 }
 @media (max-width: 900px) {
+  .hero-page {
+    padding: 80px 20px;
+  }
+  .hero-page h1 {
+    font-size: 50px;
+  }
+  .navigation-links {
+    margin-top: 80px;
+  }
+  .navigation-links a {
+    display: block;
+    margin: 10px 0;
+  }
   .description {
     text-align: center;
     padding: 15px 20px;
