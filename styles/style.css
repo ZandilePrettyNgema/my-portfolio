@@ -44,6 +44,10 @@ h2 {
 }
 .work-container {
   padding: 160px 20px;
+  text-align: center;
+}
+.work-container img {
+  height: 400px;
 }
 .work-content h1 {
   font-size: 64px;
@@ -81,6 +85,9 @@ h2 {
   .navigation-links a {
     display: block;
     margin: 10px 65px;
+  }
+  .work-container {
+    padding: 0;
   }
   .work-content {
     text-align: center;
