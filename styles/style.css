@@ -42,17 +42,17 @@ h2 {
 .work-content a:hover {
   color: #000;
 }
-.work-container {
+.work-container, .contact-container {
   padding: 160px 20px;
   text-align: center;
 }
 .work-container img {
   height: 400px;
 }
-.work-content h1 {
+.work-content h1, .contact-content h1 {
   font-size: 64px;
 }
-.work-content p {
+.work-content p,.contact-content p {
   font-size: 14px;
 }
 
@@ -65,7 +65,7 @@ h2 {
   border-radius: 4px;
   font-weight: 500;
 }
-.work-content h3 {
+.work-content h3,.contact-content h3 {
   font-size: 24px;
   font-weight: 700;
   line-height: 1.5;
