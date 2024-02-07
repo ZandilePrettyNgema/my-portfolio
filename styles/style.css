@@ -9,7 +9,6 @@ body {
   background: var(--secondary-color);
 }
 .navigation-links a,
-.description h2,
 p {
   font-family: var(--default-font-family);
 }
@@ -40,21 +39,20 @@ h2 {
   margin: 10px;
 }
 .navigation-links a:hover,
-.description a:hover {
+.work-content a:hover {
   color: #000;
 }
-.description h1 {
+.work-container {
+  padding: 160px 20px;
+}
+.work-content h1 {
   font-size: 64px;
 }
-.description {
-  margin-top: 110px;
+.work-content p {
+  font-size: 14px;
 }
-.description p {
-  font-size: 16px;
-  font-weight: normal;
-  line-height: 25px;
-}
-.description a {
+
+.work-content a {
   font-size: 20px;
   text-decoration: none;
   color: var(--branding-color);
@@ -63,10 +61,12 @@ h2 {
   border-radius: 4px;
   font-weight: 500;
 }
-.projects h2 {
-  font-size: 88px;
-  font-weight: normal;
-  font-family: var(--heading-font-family);
+.work-content h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 20px 0 0;
+  font-family: var(--default-font-family);
 }
 @media (max-width: 900px) {
   .hero-page {
@@ -82,16 +82,13 @@ h2 {
     display: block;
     margin: 10px 65px;
   }
-  .description {
+  .work-content {
     text-align: center;
-    padding: 15px 20px;
-    margin-top: 10px;
-    margin-bottom: 50px;
+    padding: 0;
+    margin: 30px;
   }
-  .projects h2 {
+
+  .work-content h1 {
     font-size: 45px;
-  }
-  .description h1 {
-    font-size: 36px;
   }
 }
