@@ -81,6 +81,15 @@ h2 {
 .contact-content a {
   text-decoration: none;
 }
+.navbar-nav {
+  margin-left: auto;
+}
+.navbar .nav-link {
+  font-size: 16px;
+  font-family: var(--default-font-family);
+  color: #272142;
+}
+
 @media (max-width: 900px) {
   .hero-page {
     padding: 80px 20px;
