@@ -90,6 +90,22 @@ h2 {
   color: #272142;
 }
 
+footer .social-links a{
+  background: rgb(68, 68, 186);
+  color: white;
+  padding: 20px 22px;
+  margin: 0 20px;
+  border-radius: 50%;
+  transition: all 200ms ease-in-out;
+}
+footer .social-links a:hover{
+  color: #6c63ff;
+  background: #ffff;
+}
+footer .social-links{
+  margin: 60px;
+}
+
 @media (max-width: 900px) {
   .hero-page {
     padding: 80px 20px;
