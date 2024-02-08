@@ -28,7 +28,7 @@ h2 {
 }
 .hero-page {
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .navigation-links a {
   border-radius: 4px;
@@ -82,9 +82,7 @@ h2 {
   text-decoration: none;
 }
 .navbar-nav {
-  position: fixed;
-  top: 10px;
-  right: 30px;
+  margin-left: auto;
 }
 .navbar .nav-link {
   font-size: 16px;
@@ -109,13 +107,8 @@ footer .social-links {
 }
 
 @media (max-width: 900px) {
-  .navbar-nav {
-    position: fixed;
-    top: 10px;
-    right: 281px;
-  }
   .hero-page {
-    padding: 80px 20px;
+    padding: 40px 20px;
   }
   .hero-page h1 {
     font-size: 50px;
