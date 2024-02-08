@@ -90,7 +90,7 @@ h2 {
   color: #272142;
 }
 
-footer .social-links a{
+footer .social-links a {
   background: rgb(68, 68, 186);
   color: white;
   padding: 20px 22px;
@@ -98,11 +98,11 @@ footer .social-links a{
   border-radius: 50%;
   transition: all 200ms ease-in-out;
 }
-footer .social-links a:hover{
+footer .social-links a:hover {
   color: #6c63ff;
   background: #ffff;
 }
-footer .social-links{
+footer .social-links {
   margin: 72px;
 }
 
@@ -130,5 +130,14 @@ footer .social-links{
 
   .work-content h1 {
     font-size: 45px;
+  }
+  footer .social-links {
+    margin: 40px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .social-links a {
+    margin: 10px;
   }
 }
