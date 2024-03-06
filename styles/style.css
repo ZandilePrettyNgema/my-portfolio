@@ -30,6 +30,26 @@ h2 {
   text-align: center;
   padding: 80px 20px;
 }
+.about-me-page {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.about-me-page h1 {
+  font-size: 50px;
+}
+.about-me-page h2 {
+  font-size: 20px;
+}
+.about-me-page p {
+  font-size: 15px;
+  text-align: justify;
+  word-wrap: break-word;
+}
+.achievements img {
+  max-width: 350px;
+  height: auto;
+  padding: 30px 48px;
+}
 .skill-page {
   text-align: center;
   padding: 60px 300px;
@@ -156,5 +176,10 @@ footer .social-links {
   .skill-page {
     text-align: center;
     padding: 60px 23px;
+  }
+  .achievements img {
+    max-width: 350px;
+    height: auto;
+    padding: 30px 48px;
   }
 }
