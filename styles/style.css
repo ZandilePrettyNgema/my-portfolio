@@ -5,12 +5,9 @@
   --secondary-color: #f9f7fe;
 }
 
-
 body {
   background: var(--secondary-color);
   margin: 0;
-  
- 
 }
 
 .navigation-links a,
@@ -126,6 +123,12 @@ h2 {
   font-family: var(--default-font-family);
   color: #272142;
 }
+.nav-item a:hover {
+  background: #000;
+  color: #fff;
+  transition: all 200ms ease-in-out;
+  border-radius: 20px;
+}
 
 footer .social-links a {
   background: rgb(68, 68, 186);
@@ -140,7 +143,7 @@ footer .social-links a:hover {
   background: #ffff;
 }
 footer .social-links {
-  margin: 72px auto ;
+  margin: 72px auto;
 }
 
 @media (max-width: 900px) {
